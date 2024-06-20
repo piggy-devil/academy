@@ -1,4 +1,4 @@
-import { Topbar } from "@/components/Topbar";
+import { Topbar } from "@/components/layout/Topbar";
 
 type Props = {
   children: React.ReactNode;

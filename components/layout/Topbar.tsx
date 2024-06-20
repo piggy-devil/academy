@@ -4,7 +4,7 @@ import { UserButton, useAuth } from "@clerk/nextjs";
 import { Search } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 export const Topbar = () => {
   const { isSignedIn } = useAuth();
